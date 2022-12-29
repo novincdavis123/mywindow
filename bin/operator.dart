@@ -39,5 +39,15 @@ void main(){
   print(i!=j);
   print(i>=j);
   print(i<=j);
+//logical
+  String uname='admin';
+  String pass='qwerty';
+  print(uname =='Admin' && pass=='qwerty');
+  print(uname =='admin' || pass=='qwerty');
+  print(!(uname =='admin' || pass=='qwerty'));
+
+
+
+
 
 }
