@@ -45,9 +45,17 @@ void main(){
   print(uname =='Admin' && pass=='qwerty');
   print(uname =='admin' || pass=='qwerty');
   print(!(uname =='admin' || pass=='qwerty'));
+  int h=10;
+  i=6;
+  print(h>>2);//0000 1010->0000 0010
+  print(h<<1);//0000 1010->0000 0100
+  print(i<<1);
+  print(i>>3);
 
-
-
-
-
+  int c=4,
+  d=8;
+  print(c&d);//and
+  print(c|d);//or
+  print(c^d);//xor
+  
 }
