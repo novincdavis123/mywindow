@@ -6,7 +6,7 @@ void main(){
   for(int i=2;i<=10;i++){
     int n3=n1+n2;
     print(n3);
-    n1=n2;
-    n2=n3;
+    n1=n2;//swapping
+    n2=n3;//swapping
   }
 }
