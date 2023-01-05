@@ -13,6 +13,6 @@ void main(){
     }
 }
   print('positive number is $pcount');
-  print('negative number is $pcount');
-  print('zero number is $pcount');
+  print('negative number is $ncount');
+  print('zero number is $zcount');
 }
