@@ -6,10 +6,12 @@ int add(int a,int b) {
     var sum=0;
    if(c==null&&d==null){
      sum=a+b;
+   }else if(c==null||d==null){
+     sum=a+b+c!;
    }else{
      sum=a+b+c!+d!;
-   }
-   print('sum1=$sum');
+  }
+   print(sum);
   }
 void main(){
   print(add(10, 100));
